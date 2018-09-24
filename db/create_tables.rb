@@ -1,4 +1,5 @@
 require 'sqlite3'
+require 'pg'
 
 db = SQLite3::Database.new "db/address_bloc.sqlite"
 
